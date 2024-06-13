@@ -1,120 +1,133 @@
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <div class="container my-5">
-        <div class="row my-5">
-            <div class="col-3">
-                <div class="card">
-                  <div class="card-header">Featured</div>
-                    <div class="cardbody">Lorem picture</div>
-                    <div class="card-footer text-muted">2 days ago</div>
-                    <a href="https://www.youtube.com/" class="card-link">Card link</a>
-                </div>
-            </div>
-            <div class="col-9">
-              <div class="card border-primary mb-3" style="max-width: 18rem;">
-              <div class="row g-0">
-                <div class="col-md-3">
-                  <img src="https://picsum.photos/200/300" class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-6">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </div>
-            
-            
-        </div>
-        <div class="row my-5">
-          <div class="card-group">
-            <div class="card">
-              <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-            <div class="col-4">
-                <div class="card w-50">
-            <img 
-                src="https://picsum.photos/300/200" 
-                class="card-img-top" 
-                alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
-            <img 
-                src="https://picsum.photos/300/200" 
-                class="card-img-top" 
-                alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-                </div>
-            </div>
-        </div>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人網站</title>
+    <style>
+        /* 在這裡可以加入自定義的CSS樣式 */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .main {
+            float: left;
+            width: 70%;
+            padding: 20px;
+            background: #fff;
+            box-sizing: border-box;
+        }
+        .sidebar {
+            float: left;
+            width: 30%;
+            padding: 20px;
+            background: #f4f4f4;
+            box-sizing: border-box;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>歡迎來到我的個人網站</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" id="homeLink">首頁</a></li>
+                <li><a href="#schedule" id="scheduleLink">門診時刻表</a></li>
+                <li><a href="#specialties">主治項目</a></li>
+                <li><a href="#team">醫療團隊</a></li>
+                <li><a href="#contact">聯絡我們</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="main">
+            <h2>關於我</h2>
+            <p>這裡可以是您的個人介紹和背景。</p>
+            <h2>我的服務</h2>
+            <ul>
+                <li>服務一</li>
+                <li>服務二</li>
+                <li>服務三</li>
+            </ul>
+        </section>
+        <aside class="sidebar">
+            <h2>最新消息</h2>
+            <p>這裡可以放一些最新消息或者連結。</p>
+        </aside>
     </div>
-    
-    
+    <footer>
+        <p>版權所有 &copy; 2024 您的名字</p>
+    </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script>
+        // JavaScript 代碼部分
+        const homeLink = document.getElementById('homeLink');
+        const scheduleLink = document.getElementById('scheduleLink');
+        
+        homeLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            location.reload(); // 重新加載整個網頁
+        });
+
+        scheduleLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            displayRandomImage();
+        });
+
+        function displayRandomImage() {
+            const images = [
+                'image1.webp',
+                // 添加更多圖片路徑
+            ];
+
+            const randomIndex = Math.floor(Math.random() * images.length);
+            const randomImage = images[randomIndex];
+
+            const mainSection = document.querySelector('.main');
+            mainSection.innerHTML = `
+                <h2>門診時刻表</h2>
+                <img src="${randomImage}" alt="隨機圖片">
+                <p>這裡可以放門診時刻表的詳細內容。</p>
+            `;
+        }
+    </script>
+</body>
 </html>
